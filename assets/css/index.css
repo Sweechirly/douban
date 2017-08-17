@@ -1,0 +1,132 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 30px;
+}
+
+header {
+  width: 950px;
+  margin: 0 auto 25px;
+}
+
+header .logo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 160px;
+  height: 34px;
+  margin-right: 20px;
+  background: url("../images/index/logo_db.png") no-repeat 0 0;
+}
+
+header .nav-links {
+  float: right;
+  margin-top: 6px;
+}
+
+header .nav-links li {
+  display: inline-block;
+  margin: 0 0 0 17px;
+}
+
+header .nav-links li a {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  overflow: hidden;
+  margin: 0;
+  line-height: 20em;
+  outline: none;
+  vertical-align: middle;
+  background-image: url("../images/index/nav_logo.png");
+}
+
+header .nav-links li .lnk-book {
+  background-position: 0px 0;
+}
+
+header .nav-links li .lnk-movie {
+  background-position: -60px 0;
+}
+
+header .nav-links li .lnk-music {
+  background-position: -120px 0;
+}
+
+header .nav-links li .lnk-group {
+  background-position: -180px 0;
+}
+
+header .nav-links li .lnk-location {
+  background-position: -299px 0;
+}
+
+header .nav-links li .lnk-fm {
+  background-position: -241px 0;
+}
+
+header .nav-links li .lnk-time {
+  margin-bottom: 1px;
+  background: url("../images/index/ic_shijian_home_nav.png") no-repeat 100% 100%;
+}
+
+header .nav-links li .lnk-market {
+  width: 42px;
+  background-position: -421px 0;
+}
+
+header .anony-srh {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 270px;
+  height: 30px;
+  border: 1px solid #c3c3c3;
+}
+
+header .anony-srh form {
+  margin: 0;
+  padding: 0;
+  border: 0px;
+}
+
+header .anony-srh form .inp {
+  display: block;
+  height: 30px;
+  overflow: hidden;
+}
+
+header .anony-srh form .inp input {
+  width: 240px;
+  border: none;
+  font-size: 13px;
+  height: 20px;
+  padding: 5px;
+  outline: none;
+}
+
+header .anony-srh form .bn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  cursor: pointer;
+  background: url("../images/index/bn_srh_1.png") 50% 50% no-repeat;
+}
+
+header .anony-srh form .bn input {
+  border: none;
+  background: transparent;
+  overflow: hidden;
+  width: 30px;
+  height: 30px;
+  font-size: 0;
+  color: transparent;
+  cursor: pointer;
+}

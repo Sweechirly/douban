@@ -3,19 +3,38 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>蚂蜂窝</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="提供图书、电影、音乐唱片的推荐、评论和价格比较，以及城市独特的文化生活。">
+    <meta name="keywords" content="豆瓣,广播,登陆豆瓣">
+    <title>豆瓣</title>
     <link rel="stylesheet" href="assets/css/index.css">
-    <link rel="stylesheet" href="//at.alicdn.com/t/font_382936_zbjei9qfxg9fi529.css">
-    <style>
-        .iconfont {
-            font-size: 120px;
-        }
-    </style>
 </head>
 
 <body>
-    <h3>试试看</h3>
-    <i class="iconfont icon-phone"></i>
+    <header>
+        <div class="logo"></div>
+        <div class="anony-srh">
+            <form action="https://www.douban.com/search" method="get">
+                <span class="inp">
+                    <input type="text" maxlength="60" size="12" placeholder="书籍、电影、音乐、小组、小站、成员" name="q" autocomplete="off">
+                    <span class="bn"><input type="submit" value="搜索"></span>
+                </span>
+            </form>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="https://book.douban.com" class="lnk-book">豆瓣读书</a></li>
+                <li><a href="https://movie.douban.com" class="lnk-movie">豆瓣电影</a></li>
+                <li><a href="https://music.douban.com" class="lnk-music">豆瓣音乐</a></li>
+                <li><a href="https://www.douban.com/group/" class="lnk-group">豆瓣小组</a></li>
+                <li><a href="https://www.douban.com/location/" class="lnk-location">豆瓣同城</a></li>
+                <li><a href="https://douban.fm" class="lnk-fm">豆瓣FM</a></li>
+                <li><a href="https://www.douban.com/time/?dt_time_source=douban-web_anonymous_index_top_nav" class="lnk-time">豆瓣时间</a></li>
+                <li><a href="https://market.douban.com?utm_campaign=anonymous_top_nav&utm_source=douban&utm_medium=pc_web" class="lnk-market">豆瓣市集</a></li>
+            </ul>
+        </div>
+    </header>
 </body>
 
 </html>

@@ -1,0 +1,121 @@
+$width:950px;
+$margin:0 auto;
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 30px;
+}
+
+header {
+    width: $width;
+    margin: 0 auto 25px;
+    .logo {
+        display: inline-block;
+        vertical-align: middle;
+        width: 160px;
+        height: 34px;
+        margin-right: 20px;
+        background: url("../images/index/logo_db.png") no-repeat 0 0;
+    }
+    .nav-links {
+        float: right;
+        margin-top: 6px;
+        li {
+            display: inline-block;
+            margin: 0 0 0 17px;
+            a {
+                display: inline-block;
+                width: 40px;
+                height: 20px;
+                overflow: hidden;
+                margin: 0;
+                line-height: 20em;
+                outline: none;
+                vertical-align: middle;
+                background-image: url("../images/index/nav_logo.png");
+            }
+            // @for $j from 0 through 7 {
+            //     a:nth-child(#{$j+1}) {
+            //         background-position: #{$j*-60}px 0;
+            //     }
+            // }
+            .lnk-book {
+                background-position: 0px 0;
+            }
+            .lnk-movie {
+                background-position: -60px 0;
+            }
+            .lnk-music {
+                background-position: -120px 0;
+            }
+            .lnk-group {
+                background-position: -180px 0;
+            }
+            .lnk-location {
+                background-position: -299px 0;
+            }
+            .lnk-fm {
+                background-position: -241px 0;
+            }
+            .lnk-time {
+                margin-bottom: 1px;
+                background: url("../images/index/ic_shijian_home_nav.png") no-repeat 100% 100%;
+            }
+            .lnk-market {
+                width: 42px;
+                background-position: -421px 0;
+            }
+        }
+    }
+    .anony-srh {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        width: 270px;
+        height: 30px;
+        border: 1px solid #c3c3c3;
+        form {
+            margin: 0;
+            padding: 0;
+            border: 0px;
+            .inp {
+                display: block;
+                height: 30px;
+                overflow: hidden;
+                input {
+                    width: 240px;
+                    border: none;
+                    font-size: 13px;
+                    height: 20px;
+                    padding: 5px;
+                    outline: none;
+                }
+            }
+            .bn {
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 30px;
+                height: 30px;
+                overflow: hidden;
+                cursor: pointer;
+                background: url("../images/index/bn_srh_1.png") 50% 50% no-repeat;
+                input {
+                    border: none;
+                    background: transparent;
+                    overflow: hidden;
+                    width: 30px;
+                    height: 30px;
+                    font-size: 0;
+                    color: transparent;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
