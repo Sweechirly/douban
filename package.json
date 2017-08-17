@@ -1,0 +1,23 @@
+{
+  "name": "douban",
+  "version": "1.0.0",
+  "description": "仿豆瓣网项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sweechirly/douban.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sweechirly/douban/issues"
+  },
+  "homepage": "https://github.com/Sweechirly/douban#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1"
+  }
+}
