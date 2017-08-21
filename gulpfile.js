@@ -3,21 +3,23 @@ var gulp = require('gulp'),
     reload = browserSync.reload,
     scss = require('gulp-sass');
 
-gulp.task('server', function() {
+// 静态服务器 + 监听 scss/html 文件
+gulp.task('serve', ['scss'], function() {
+
     browserSync.init({
         server: "./"
     });
-    gulp.watch("./assets/scss/*.scss", ['scss']).on('change', reload);
-    gulp.watch("./*.html").on('change', reload);
+
+    gulp.watch("assets/scss/*.scss", ['scss']);
+    gulp.watch("app/*.html").on('change', reload);
 });
 
+// scss编译后的css将注入到浏览器里实现更新
 gulp.task('scss', function() {
-    console.log(111);
-    gulp.src('./assets/scss/*.scss')
-        .pipe(scss({ outputStyle: "expanded" }).on('error', scss.logError))
-        .pipe(gulp.dest('./assets/css'))
+    return gulp.src("assets/scss/*.scss")
+        .pipe(scss({ outputStyle: 'expanded' }).on('error', scss.logError))
+        .pipe(gulp.dest("assets/css"))
         .pipe(reload({ stream: true }));
-})
+});
 
-// 默认任务
-gulp.task('default', ['server']);
+gulp.task('default', ['serve']);
