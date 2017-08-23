@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font: 12px/1.6 arial, helvetica, sans-serif;
+}
+
+a:visited {
+    color: #669;
+    text-decoration: none;
+}
+
+a:link {
+    color: #37a;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #3377aa;
+    color: #fff;
+}
+
+.wrapper {
+    width: 950px;
+    margin: 0 auto;
+}
+
+#header {
+    margin-bottom: 40px;
+    padding-top: 30px;
+    overflow: hidden;
+    .logo {
+        float: left;
+        width: 215px;
+        height: 30px;
+        overflow: hidden;
+        line-height: 10em;
+        background: url("../images/login/下载.png") 0 0 no-repeat;
+    }
+}
+
+#content {
+    height: 400px;
+    margin-bottom: 40px;
+    h1 {
+        padding: 0 0 30px;
+    }
+    .article {
+        float: left;
+        width: 590px;
+        .item-right {
+            text-align: right;
+            width: 287px;
+        }
+        .item {
+            clear: both;
+            margin: 0 0 15px;
+            label {
+                display: inline-block;
+                width: 60px;
+                margin-right: 15px;
+                text-align: right;
+                font-size: 14px;
+                line-height: 30px;
+                vertical-align: baseline;
+            }
+            .basic-input {
+                width: 200px;
+                padding: 5px;
+                height: 18px;
+                font-size: 14px;
+                vertical-align: middle;
+                -moz-border-radius: 3px;
+                -webkit-border-radius: 3px;
+                border-radius: 3px;
+                border: 1px solid #c9c9c9;
+            }
+            .remember {
+                cursor: pointer;
+                font-size: 12px;
+                display: inline;
+                width: auto;
+                text-align: left;
+                float: none;
+                margin: 0;
+                color: #666;
+                input {
+                    border: none;
+                }
+            }
+            .btn-submit {
+                color: #ffffff;
+                background: #3fa156;
+                border: 1px solid #528641;
+                font-size: 14px;
+                font-weight: bold;
+                padding: 6px 26px;
+                border-radius: 3px;
+            }
+        }
+        .item-3rd {
+            padding: 5px 0;
+            width: 200px;
+            margin: 20px 0 0 75px;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            label {
+                width: auto;
+                margin: 0;
+                font-size: 12px;
+                color: #999;
+                line-height: 1.5;
+            }
+            img {
+                margin: 0 5px;
+                vertical-align: middle;
+            }
+        }
+    }
+    .aside {
+        float: right;
+        width: 310px;
+        color: #666;
+        li {
+            padding-bottom: 1em;
+        }
+    }
+    &::after {
+        content: " ";
+        display: block;
+        clear: both;
+    }
+}
+
+#footer {
+    padding: 6px 0;
+    margin-top: 40px;
+    overflow: hidden;
+    border-top: 1px dashed #ddd;
+    span {
+        color: #999;
+    }
+    .fright {
+        float: right;
+    }
+}
