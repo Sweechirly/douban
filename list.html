@@ -138,13 +138,13 @@
                         </div>
                     </div>
                     <div class="bd ui-slide-screen">
-                        <ul class="ui-slide-contents gallery gallery-pic110" style="left: 0px; width: 3000px;">
+                        <ul class="ui-slide-contents gallery gallery-pic110" id="gallery">
                             <li>
                                 <div class="pic on-sale">
-                                    <a tabindex="-1" onclick="moreurl(this, {from:'loc-index-guess-beijing'})" href="https://www.douban.com/event/28782753/"><img alt="" src="https://img3.doubanio.com/view/event_poster/large/public/086e15f4536f3f5.jpg" width="110" height="165"></a>
+                                    <a href="https://www.douban.com/event/28782753/"><img alt="" src="https://img3.doubanio.com/view/event_poster/large/public/086e15f4536f3f5.jpg" width="110" height="165"></a>
                                 </div>
                                 <div class="title">
-                                    <a href="https://www.douban.com/event/28782753/" title="中国当代著名导演作品邀请展：田沁鑫导演作品《聆听弘一》" onclick="moreurl(this, {from:'loc-index-guess-beijing'})">中国当代著名导演作品邀请展：...</a>
+                                    <a href="https://www.douban.com/event/28782753/" title="中国当代著名导演作品邀请展：田沁鑫导演作品《聆听弘一》">中国当代著名导演作品邀请展：...</a>
                                 </div>
                             </li>
                             <li>
@@ -157,7 +157,7 @@
                             </li>
                             <li>
                                 <div class="pic on-sale">
-                                    <a tabindex="-1" onclick="moreurl(this, {from:'loc-index-guess-beijing'})" href="https://www.douban.com/event/28927815/"><img alt="" src="https://img1.doubanio.com/view/event_poster/large/public/3961f8011d676ca.jpg" width="110" height="165"></a>
+                                    <a tabindex="-1" href="https://www.douban.com/event/28927815/"><img alt="" src="https://img1.doubanio.com/view/event_poster/large/public/3961f8011d676ca.jpg" width="110" height="165"></a>
                                 </div>
                                 <div class="title">
                                     <a href="https://www.douban.com/event/28927815/" title="林奕华舞台剧《小飞侠彼得潘之机场无真爱》2017北京站" onclick="moreurl(this, {from:'loc-index-guess-beijing'})">林奕华舞台剧《小飞侠彼得潘之...</a>
@@ -1463,7 +1463,7 @@
                         </h2>
                     </div>
                     <div class="guanfang">
-                        <ul class="crow simple-list-1col">
+                        <ul class="crow simple-list-1col" id="tb">
                             <li class="col-xs-12 col-sm-6 col-md-12 list-entry">
                                 <a class="ll" href="https://www.douban.com/event/28867670/?icn=index-shopitem" onclick="moreurl(this, {from:'loc-event-ticket-None-0-img'})"><img alt="开心麻花爆笑舞台剧《牢友记》" src="https://img1.doubanio.com/view/event_poster/small/public/7a26e2a4213c647.jpg" width="48"></a>
                                 <div class="info">
@@ -2101,6 +2101,9 @@
             </div>
         </div>
     </div>
+
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/js/list.js"></script>
 </body>
 
 </html>

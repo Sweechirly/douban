@@ -1,227 +1,247 @@
 @charset "UTF-8";
 * {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 body {
-  font: 12px/1.6 arial, helvetica, sans-serif;
+    font: 12px/1.6 arial, helvetica, sans-serif;
 }
 
 em {
-  font-style: normal;
+    font-style: normal;
 }
 
 a:visited {
-  color: #669;
-  text-decoration: none;
+    color: #669;
+    text-decoration: none;
 }
 
 a:link {
-  color: #37a;
-  text-decoration: none;
+    color: #37a;
+    text-decoration: none;
 }
 
 a:hover {
-  background-color: #3377aa;
-  color: #fff;
+    background-color: #3377aa;
+    color: #fff;
 }
 
 .wrapper {
-  width: 950px;
-  margin: 0 auto;
+    width: 950px;
+    margin: 0 auto;
 }
 
 #header {
-  margin-bottom: 40px;
-  padding-top: 30px;
-  overflow: hidden;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    overflow: hidden;
 }
 
 #header .logo {
-  float: left;
-  width: 215px;
-  height: 30px;
-  overflow: hidden;
-  line-height: 10em;
-  background: url("../images/login/下载.png") 0 0 no-repeat;
+    float: left;
+    width: 215px;
+    height: 30px;
+    overflow: hidden;
+    line-height: 10em;
+    background: url("../images/login/下载.png") 0 0 no-repeat;
 }
 
 #content {
-  margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 #content .article {
-  padding-bottom: 1em;
-  float: left;
-  width: 590px;
-  margin-right: 50px;
+    padding-bottom: 1em;
+    float: left;
+    width: 590px;
+    margin-right: 50px;
 }
 
 #content .article form {
-  position: relative;
+    position: relative;
 }
 
 #content .article form .item {
-  clear: both;
-  margin: 15px 0;
+    clear: both;
+    margin: 15px 0;
 }
 
 #content .article form .item label {
-  display: inline-block;
-  margin-right: 15px;
-  text-align: right;
-  width: 60px;
-  font-size: 14px;
-  line-height: 30px;
-  vertical-align: middle;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: right;
+    width: 60px;
+    font-size: 14px;
+    line-height: 30px;
+    vertical-align: middle;
 }
 
 #content .article form .item .basic-input {
-  width: 200px;
-  padding: 5px;
-  height: 18px;
-  font-size: 14px;
-  border-radius: 3px;
-  border: 1px solid #c9c9c9;
-  vertical-align: middle;
+    width: 200px;
+    padding: 5px;
+    height: 18px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #c9c9c9;
+    vertical-align: middle;
 }
 
 #content .article form .item .loc {
-  font-size: 12px;
-  line-height: 30px;
+    font-size: 12px;
+    line-height: 30px;
 }
 
 #content .article form .item .GlobalPhone {
-  display: inline-block;
-  padding: 0;
-  height: 28px;
-  width: 210px;
-  font-size: 0;
-  position: relative;
+    display: inline-block;
+    padding: 0;
+    height: 28px;
+    width: 210px;
+    font-size: 0;
+    position: relative;
 }
 
 #content .article form .item .GlobalPhone span {
-  text-align: center;
-  padding: 0 7px;
-  cursor: pointer;
-  color: #494949;
-  white-space: nowrap;
-  line-height: 28px;
-  font-size: 14px;
-  display: table-cell;
-  vertical-align: top;
+    text-align: center;
+    padding: 0 7px;
+    cursor: pointer;
+    color: #494949;
+    white-space: nowrap;
+    line-height: 28px;
+    font-size: 14px;
+    display: table-cell;
+    vertical-align: top;
 }
 
 #content .article form .item .GlobalPhone span::after {
-  content: "";
-  display: inline-block;
-  height: 15px;
-  border-right: 1px solid #ccc;
-  vertical-align: middle;
-  margin-left: 7px;
+    content: "";
+    display: inline-block;
+    height: 15px;
+    border-right: 1px solid #ccc;
+    vertical-align: middle;
+    margin-left: 7px;
 }
 
 #content .article form .item .GlobalPhone div {
-  font-size: 14px;
-  display: table-cell;
-  vertical-align: top;
+    font-size: 14px;
+    display: table-cell;
+    vertical-align: top;
 }
 
 #content .article form .item .GlobalPhone div input {
-  padding: 0 7px 0 0;
-  border: 0;
-  outline: none;
-  height: 100%;
-  width: 100%;
-  line-height: 28px;
-  box-sizing: border-box;
+    padding: 0 7px 0 0;
+    border: 0;
+    outline: none;
+    height: 100%;
+    width: 100%;
+    line-height: 28px;
+    box-sizing: border-box;
 }
 
 #content .article form .item #request-phone-code-btn {
-  cursor: pointer;
-  background: #fff;
-  border: 1px solid #c9c9c9;
-  font-size: 13px;
-  padding: 6px 15px;
-  border-radius: 3px;
-  vertical-align: middle;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #c9c9c9;
+    font-size: 13px;
+    padding: 6px 15px;
+    border-radius: 3px;
+    vertical-align: middle;
 }
 
 #content .article form .item .agreement {
-  margin-left: 75px;
+    margin-left: 75px;
 }
 
 #content .article form .item .agreement .agreement-label {
-  font-size: 12px;
-  display: inline;
-  width: auto;
-  text-align: left;
-  float: none;
-  color: #000;
+    font-size: 12px;
+    display: inline;
+    width: auto;
+    text-align: left;
+    float: none;
+    color: #000;
 }
 
 #content .article form .item .btn-submit {
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 6px 26px;
-  border-radius: 3px;
-  color: #999;
-  background: #f0f0f0;
-  border: 1px solid #b9b9b9;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 26px;
+    border-radius: 3px;
+    color: #999;
+    background: #f0f0f0;
+    border: 1px solid #b9b9b9;
 }
 
 #content .article form .captcha-item .basic-input {
-  width: 95px;
+    width: 95px;
 }
 
 #content .article form .suggestion {
-  padding-left: 75px;
+    padding-left: 75px;
 }
 
 #content .article form .suggestion #email_suggestion {
-  display: inline-block;
-  position: absolute;
-  left: 75px;
-  top: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 75px;
+    top: 30px;
 }
 
 #content .aside {
-  float: right;
-  width: 310px;
-  color: #666;
+    float: right;
+    width: 310px;
+    color: #666;
 }
 
 #content .aside li {
-  padding-bottom: 1em;
+    padding-bottom: 1em;
 }
 
 #content::after {
-  content: " ";
-  display: block;
-  clear: both;
+    content: " ";
+    display: block;
+    clear: both;
 }
 
 #footer {
-  padding: 6px 0;
-  margin-top: 40px;
-  overflow: hidden;
-  border-top: 1px dashed #ddd;
+    padding: 6px 0;
+    margin-top: 40px;
+    overflow: hidden;
+    border-top: 1px dashed #ddd;
 }
 
 #footer span {
-  color: #999;
+    color: #999;
 }
 
 #footer .fright {
-  float: right;
+    float: right;
 }
 
 .tips,
 #location,
 .agreement-label {
-  font-size: 12px;
-  color: #808080;
+    font-size: 12px;
+    color: #808080;
+}
+
+.error {
+    display: inline;
+    background-position: left -52px;
+    color: #fe2617;
+    vertical-align: middle;
+}
+
+.option {
+    display: inline;
+    background-position: left 4px;
+    color: #808080;
+}
+
+.error,
+.option {
+    padding-left: 10px;
+    background-image: url("../images/register/tips_arrow.gif");
+    background-repeat: no-repeat;
 }

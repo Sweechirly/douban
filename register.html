@@ -17,7 +17,7 @@
         <div id="content">
             <h1>欢迎加入豆瓣</h1>
             <div class="article">
-                <form name="lzform" method="post" action="https://accounts.douban.com/register">
+                <form name="lzform" method="post" action="https://accounts.douban.com/register" class="demoform">
                     <div class="item extra-tips">
                         <label>邮箱</label>
                         <input id="email" name="alias" type="text" class="basic-input" maxlength="60" tabindex="1" value="">
@@ -27,11 +27,36 @@
                     </div>
                     <div class="item extra-tips">
                         <label>密码</label>
-                        <input id="password" name="password" type="password" class="basic-input" tabindex="2" maxlength="20">
+                        <input id="inpt-pw" name="password" type="password" class="basic-input" tabindex="2" maxlength="20">
+                        <div class="option popb" style="display:none">
+                            <span class="b-p">
+                                至少包含字母和数字，最短8个字符，区分大小写
+                            </span>
+                        </div>
+                        <div class="error err2 popb" style="display:none">
+                            <span class="b-p">
+                                密码强度不够，请包含字母和数字
+                            </span>
+                        </div>
+                        <div class="error err3 popb" style="display:none">
+                            <span class="b-p">
+                                密码不能为空
+                            </span>
+                        </div>
                     </div>
                     <div class="item extra-tips">
                         <label>名号</label>
-                        <input id="name" name="name" type="text" class="basic-input" maxlength="15" tabindex="3" value="">
+                        <input id="inpt-nm" name="name" type="text" class="basic-input" maxlength="15" tabindex="3" value="">
+                        <div class="option popb" style="display:none">
+                            <span class="b-p">
+                                中、英文均可，最长14个英文或7个汉字
+                            </span>
+                        </div>
+                        <div class="error err2 popb" style="display:none">
+                            <span class="b-p">
+                                名号不能为空
+                            </span>
+                        </div>
                     </div>
                     <div class="suggestion">
                         <span class="tips">第一印象很重要，起个响亮的名号吧</span>
@@ -105,6 +130,11 @@
             </span>
         </div>
     </div>
+
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="assets/js/register.js"></script>
 </body>
+
+</html>
 
 </html>
